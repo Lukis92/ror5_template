@@ -1,24 +1,21 @@
-# README
+Rails 5 app template
+================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### :hash: App description
+This is starter template for **Rails app**.
 
-Things you may want to cover:
+### :closed_lock_with_key: Technology stack
 
-* Ruby version
+| Name |  Version |
+| :--: | :---: |
+| [Ruby](https://www.ruby-lang.org) | 2.3.1 |
+| [Ruby on Rails](http://www.rubyonrails.org/) | 5.0.0.1 |
+| [PostgreSQL](http://www.postgresql.org/) | 9.4.8 |
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### :book: Setup
+-------------
+1. clone repository,
+2. `cd path/to/repo`,
+3. `cp config/database.yml.sample config/database.yml`,
+4. `set database details in database.yml`,
+5. `rake db:create db:schema:load`
