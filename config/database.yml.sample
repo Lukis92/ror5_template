@@ -1,0 +1,15 @@
+connection: &connection
+  adapter: postgresql
+  encoding: unicode
+  host:     localhost
+  pool: 5
+  username: ror-app
+  password:
+
+development:
+  <<: *connection
+  database: ror-app_development
+
+test: &test
+  <<: *connection
+  database: ror-app_test

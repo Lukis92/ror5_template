@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Own gems
 gem 'annotate' # annotate classes with schema and routes info
+gem 'bootstrap-sass' # bootstrap Sass
 gem 'devise' # authentication
 gem 'font-awesome-rails' # web icons
 gem 'heroku' # Heroku CLI
